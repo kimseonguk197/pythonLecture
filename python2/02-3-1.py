@@ -37,3 +37,6 @@
 # print(a[6:])
 # print(a[::3])
 # print(a[::-1])
+
+print(1 + 2)
+

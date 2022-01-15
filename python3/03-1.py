@@ -8,9 +8,9 @@
 
 # #하나의 변수로 여러개의 데이터를 담고 관리.
 #
-lista = ["김돌쇠", "김갑돌", "김갑순", "김철수"]
-print(lista)
-print(lista[0])
+# lista = ["김돌쇠", "김갑돌", "김갑순", "김철수"]
+# print(lista)
+# print(lista[0])
 #
 # #리스트 숫자
 # lista = [1, 2, 3, 4]
@@ -77,9 +77,9 @@ print(lista[0])
 
 
 # #리스트 정렬 >> sort >> 숫자는 낮은숫자부터, 문자는 ㄱㄴㄷㄹ abcd 순으로 정렬. 리턴값 없음.(대상 변수를 직점 바꿈)
-# lista =  ["김돌쇠", "김갑돌", "김갑순", "김철수"]
-# lista.sort()
-# print(lista)
+lista =  ["김돌쇠", "김갑돌", "김갑순", "김철수"]
+list.sort(lista)
+print(lista)
 
 # #리스트 뒤집기 >> reverse >> 뒤에서부터 순서변경, 리턴값 없음.(대상 변수를 직점 바꿈)
 # lista =  ["김돌쇠", "김갑돌", "김갑순", "김철수"]
@@ -89,6 +89,7 @@ print(lista[0])
 # 리스트 뒤집기 >> reverse >> 뒤에서부터 순서변경, 리턴값 있음.(대상 변수를 직점 바꾸지 않음.)
 # lista =  ["김돌쇠", "김갑돌", "김갑순", "김철수"]
 # indexNum = lista.index("김철수")
+# print(indexNum)
 # stra = "Courage is very important. Like a muscle, it is strengthened by use."
 # indexNum2 = stra.index("b")
 # print(indexNum2)

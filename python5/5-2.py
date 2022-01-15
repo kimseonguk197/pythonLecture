@@ -145,29 +145,3 @@
 # print(sum)
 
 
-# ##for문 예제3 연습문제3
-# result = 0
-# print('수열 = ', end=" ")
-# for i in range(1,101):
-#     if ((i%3 ==0) and ((i%2) !=0)) :
-#         print(i, end=" ")
-#         result += i
-# print("누적합 = ", 867)
-
-#2중 for문 구구단 예제
-
-# for left in range(2,10):
-#     for right in range(1,10):
-#         result = left*right
-#         print("%d x %d = %d" %(left, right, result))
-
-#2중 for문 리스트에 담기
-
-# lista = []
-# for left in range(2,10):
-#     for right in range(1,10):
-#         result = left*right
-#         lista.append(result)
-# print(lista)
-
-#112p. 연습문제 4번.
