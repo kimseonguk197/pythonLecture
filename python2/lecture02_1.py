@@ -78,7 +78,7 @@
 
 # #리스트 정렬 >> sort >> 숫자는 낮은숫자부터, 문자는 ㄱㄴㄷㄹ abcd 순으로 정렬. 리턴값 없음.(대상 변수를 직점 바꿈)
 lista =  ["김돌쇠", "김갑돌", "김갑순", "김철수"]
-list.sort(lista)
+lista.sort()
 print(lista)
 
 # #리스트 뒤집기 >> reverse >> 뒤에서부터 순서변경, 리턴값 없음.(대상 변수를 직점 바꿈)
@@ -94,12 +94,11 @@ print(lista)
 # indexNum2 = stra.index("b")
 # print(indexNum2)
 
-# #리스트 요소 꺼내기 (pop) >> 마지막 요소 꺼내는 >> 리턴값 없고, 대상 변수를 바꾸는 것.
+# #리스트 요소 꺼내기 (pop) >> 마지막 요소 꺼내는 
 # lista =  ["김돌쇠", "김갑돌", "김갑순", "김철수"]
 # lista.pop()
 # print(lista)
 
-# #리스트 요소 꺼내기 (pop) >> 마지막 요소 꺼내는 >> 리턴값 있음.(대상 변수를 직점 바꾸지 않음.)
 # lista =  ["김돌쇠", "김갑돌", "김갑순", "김철수"]
 # countNum = lista.count("김돌쇠")
 # print(countNum)
